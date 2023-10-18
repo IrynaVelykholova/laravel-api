@@ -14,7 +14,7 @@ class TechnologiesTableSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void {
-        $technologies = ['Bootsrap', 'Tailwind', 'Bulma'];
+        $technologies = ['Bootstrap', 'Tailwind', 'Bulma', 'UIkit', 'Milligram'];
         foreach ($technologies as $technology) {
             $new_tech = new Technology();
             $new_tech->name = $technology;
